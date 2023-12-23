@@ -21,7 +21,7 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>3.6.0</version>
                 <configuration>
-                    <finalName>burploaderkeygen-v${version}</finalName>
+                    <finalName>burploaderkeygen</finalName>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
