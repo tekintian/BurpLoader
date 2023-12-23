@@ -26,7 +26,7 @@ import java.util.Iterator;
 import java.util.Properties;
 
 public class KeygenForm {
-   private static final String Version = "v1.17.1";
+   private static final String Version = "v1.18";
    private static JFrame frame;
    private static JButton btn_run;
    private static JTextField text_cmd;
