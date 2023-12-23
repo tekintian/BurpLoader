@@ -6,7 +6,7 @@
 
     <groupId>cn.tekin</groupId>
     <artifactId>burploaderkeygen</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.17.1</version>
 
     <properties>
         <maven.compiler.source>20</maven.compiler.source>
@@ -21,7 +21,7 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>3.6.0</version>
                 <configuration>
-                    <finalName>burploaderkeygen</finalName>
+                    <finalName>burploaderkeygen-v${version}</finalName>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>

@@ -1,5 +1,6 @@
 package cn.tekin.burploaderkeygen;
 
+
 import cn.tekin.json.JSONObject;
 import cn.tekin.json.JSONParse;
 
@@ -25,7 +26,7 @@ import java.util.Iterator;
 import java.util.Properties;
 
 public class KeygenForm {
-   private static final String Version = "v1.17";
+   private static final String Version = "v1.17.1";
    private static JFrame frame;
    private static JButton btn_run;
    private static JTextField text_cmd;
@@ -150,7 +151,7 @@ public class KeygenForm {
             cmd.add(BURP_PATH);
             return (String[])cmd.toArray(new String[0]);
          } else {
-            return new String[]{"Not support Java 8, please use old version! https://github.com/h3110w0r1d-y/BurpLoaderKeygen/releases/tag/1.7"};
+            return new String[]{"Not support Java 8, please use old version! https://github.com/tekintian/BurpLoaderKeygen/releases/tag/1.7"};
          }
       }
    }
@@ -383,7 +384,7 @@ public class KeygenForm {
       } catch (Exception var5) {
       }
 
-      String LicenseName = "h3110w0r1d";
+      String LicenseName = "tekintian";
       if (readProperty("auto_run") == null) {
          setProperty("auto_run", "0");
       }
@@ -478,7 +479,7 @@ public class KeygenForm {
       panel1 = new JPanel();
       panel2 = new JPanel();
       panel3 = new JPanel();
-      frame = new JFrame("Burp Suite Pro Loader & Keygen v1.17 - By h3110w0r1d");
+      frame = new JFrame(String.format("Burp Suite Pro Loader & Keygen %s By TekinTian", Version));
       btn_run = new JButton("Run");
       label0_1 = new JLabel("Checking the latest version of BurpSuite...");
       JLabel label1 = new JLabel("Loader Command:", 4);

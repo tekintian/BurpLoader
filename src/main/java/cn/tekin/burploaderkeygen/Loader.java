@@ -101,7 +101,7 @@ public class Loader implements ClassFileTransformer {
                      insnList.add(new MethodInsnNode(182, "feign/Request", "url", "()Ljava/lang/String;", false));
                      insnList.add(new VarInsnNode(25, 1));
                      insnList.add(new MethodInsnNode(182, "feign/Request", "body", "()[B", false));
-                     insnList.add(new MethodInsnNode(184, "com/h3110w0r1d/burploaderkeygen/Filter", "BountyFilter", "(Ljava/lang/String;[B)[B", false));
+                     insnList.add(new MethodInsnNode(184, "cn/tekin/burploaderkeygen/Filter", "BountyFilter", "(Ljava/lang/String;[B)[B", false));
                      insnList.add(new VarInsnNode(58, 2));
                      insnList.add(new VarInsnNode(25, 2));
                      LabelNode outLabel = new LabelNode();
@@ -175,7 +175,7 @@ public class Loader implements ClassFileTransformer {
                InsnList insnList = method.instructions;
                insnList.clear();
                insnList.add(new VarInsnNode(25, 0));
-               insnList.add(new MethodInsnNode(184, "com/h3110w0r1d/burploaderkeygen/Filter", "BurpFilter", "([Ljava/lang/Object;)V", false));
+               insnList.add(new MethodInsnNode(184, "cn/tekin/burploaderkeygen/Filter", "BurpFilter", "([Ljava/lang/Object;)V", false));
                insnList.add(new InsnNode(177));
                method.exceptions.clear();
                method.tryCatchBlocks.clear();
